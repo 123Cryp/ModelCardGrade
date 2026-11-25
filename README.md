@@ -122,7 +122,17 @@ if not registry.view().meets_min_grade_by_url(CARD_URL, "2.1.0", "B"):
 
 ## Deployment
 
-ModelCardGrade is submitted on its own as a contract; there is no frontend in this repository. The deployed address will be added here after the live tests on GenLayer Studio.
+ModelCardGrade is submitted on its own as a contract; there is no frontend in this repository. Deployed on GenLayer Studio at `0x4F80c7f1799D28822b9f565FE56C4212caDc3FfA` with `challenge_window_seconds=1800` and `stale_after_seconds=3600`.
+
+Live test results on that deployment:
+
+| Card | Evidence | Claimed version | Result |
+|---|---|---|---|
+| c1 | `m1.txt` | 2.1.0 | A (0); challenge with `m1-note.txt` rejected (NO_ANCHOR) |
+| c2 | `m2.txt` | 1.0.0 | B (10); challenge with `m2-update.txt` upheld, now A |
+| c3 | `m4.txt` | 3.0.0 | D (40), finalized |
+
+Withdrawals, a refunded rejected registration and the accounting view were also exercised. Studio's explorer kept showing the contract balance unchanged after withdrawals, while the contract's own accounting view reported zero obligations.
 
 `evidence/` holds sample model cards used for live testing. The sample prefix is `https://raw.githubusercontent.com/123Cryp/ModelCardGrade/main/evidence/`.
 
