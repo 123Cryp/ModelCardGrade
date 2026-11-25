@@ -1,0 +1,3 @@
+Update for https://raw.githubusercontent.com/123Cryp/ModelCardGrade/main/evidence/m2.txt
+Training data: The model was trained on 800000 labelled product reviews from the Lantern marketplace collected in 2023.
+License: Released under the Apache 2.0 license.

@@ -1,0 +1,7 @@
+Model card: Orbit Chat
+Version: 3.0.0
+Intended use: A general purpose assistant.
+Training data: Unknown.
+Limitations: N/A
+Evaluation results: State of the art results on many benchmarks.
+License: No license specified.

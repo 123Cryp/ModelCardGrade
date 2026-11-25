@@ -1,0 +1,7 @@
+Model card: Quill Translator
+Version: 0.9.0
+Intended use: Quill Translator is intended for translating short informal messages between English and German.
+Training data: Training data is not disclosed.
+Limitations: No known limitations.
+Evaluation results: Strong performance on common benchmarks.
+License: Released under the MIT license.

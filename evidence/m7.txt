@@ -1,0 +1,7 @@
+Model card: Aurora Reranker
+Version: 1.4.2 (supersedes 1.3.0)
+Intended use: Aurora Reranker is intended for reordering search results for English documentation queries.
+Training data: The model was trained on 2 million query and click pairs from a public documentation site.
+Limitations: The model is biased toward long pages and fails on queries written in code.
+Evaluation results: On the documentation query set the model reached 0.74 NDCG at 10.
+License: Released under the Apache 2.0 license.

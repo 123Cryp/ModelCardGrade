@@ -1,0 +1,3 @@
+Retraction for https://raw.githubusercontent.com/123Cryp/ModelCardGrade/main/evidence/m1.txt
+Training data: Training data is not disclosed.
+License: No license specified.

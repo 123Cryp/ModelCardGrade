@@ -1,0 +1,7 @@
+Model card: Lantern Classifier
+Version: 1.0.0
+Intended use: Lantern Classifier is intended for sorting English product reviews into positive, neutral and negative classes.
+Training data: Trained on various publicly available data.
+Limitations: The model is unreliable on sarcasm and on reviews shorter than five words, and it should not be used to rank sellers.
+Evaluation results: On the Lantern test set the model reached 92.4 percent accuracy and 0.91 macro F1.
+License: Custom license, see the repository.

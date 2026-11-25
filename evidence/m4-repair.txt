@@ -1,0 +1,6 @@
+Repair for https://raw.githubusercontent.com/123Cryp/ModelCardGrade/main/evidence/m4.txt
+Intended use: Orbit Chat is intended for answering customer support questions about Orbit billing in English.
+Training data: The model was trained on 500000 anonymised support chats from Orbit customers collected during 2022.
+Limitations: The model can invent invoice numbers and should not be used to approve refunds without a human check.
+Evaluation results: On the support test set the model reached 87.3 percent answer accuracy.
+License: Released under the Apache 2.0 license.

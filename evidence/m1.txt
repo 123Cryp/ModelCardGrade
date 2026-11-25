@@ -1,0 +1,7 @@
+Model card: Harbor Summarizer
+Version: 2.1.0
+Intended use: Harbor Summarizer is intended for summarizing English news articles and press releases for newsroom staff.
+Training data: The model was trained on 1.2 million English news articles collected from licensed wire services between 2015 and 2022.
+Limitations: The model can produce inaccurate summaries of non-English text and is not suitable for legal or medical documents.
+Evaluation results: On the held-out news test set the model scored 41.2 ROUGE-L and 88.5 percent factual consistency.
+License: Released under the Apache 2.0 license.
